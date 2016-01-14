@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7363B6491C4793A700F03344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7363B6481C4793A700F03344 /* AppDelegate.swift */; };
+		7363B64B1C4793A700F03344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7363B64A1C4793A700F03344 /* ViewController.swift */; };
+		7363B64E1C4793A700F03344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7363B64C1C4793A700F03344 /* Main.storyboard */; };
+		7363B6501C4793A700F03344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7363B64F1C4793A700F03344 /* Assets.xcassets */; };
+		7363B6531C4793A700F03344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7363B6511C4793A700F03344 /* LaunchScreen.storyboard */; };
+		7363B65E1C4793A700F03344 /* Shake_it__BabyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7363B65D1C4793A700F03344 /* Shake_it__BabyTests.swift */; };
+		7363B6691C4793A700F03344 /* Shake_it__BabyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7363B6681C4793A700F03344 /* Shake_it__BabyUITests.swift */; };
+		7363B67E1C47A64E00F03344 /* blood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7363B6771C47A64E00F03344 /* blood.mp3 */; };
+		7363B67F1C47A64E00F03344 /* dumdum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7363B6781C47A64E00F03344 /* dumdum.mp3 */; };
+		7363B6801C47A64E00F03344 /* knife.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7363B6791C47A64E00F03344 /* knife.mp3 */; };
+		7363B6821C47A64E00F03344 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7363B67B1C47A64E00F03344 /* pop.mp3 */; };
+		7363B6831C47A64E00F03344 /* sheath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7363B67C1C47A64E00F03344 /* sheath.mp3 */; };
+		7363B6841C47A64E00F03344 /* shot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7363B67D1C47A64E00F03344 /* shot.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7363B65A1C4793A700F03344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7363B63D1C4793A700F03344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7363B6441C4793A700F03344;
+			remoteInfo = "Shake it, Baby";
+		};
+		7363B6651C4793A700F03344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7363B63D1C4793A700F03344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7363B6441C4793A700F03344;
+			remoteInfo = "Shake it, Baby";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7363B6451C4793A700F03344 /* Shake it, Baby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake it, Baby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7363B6481C4793A700F03344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7363B64A1C4793A700F03344 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7363B64D1C4793A700F03344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7363B64F1C4793A700F03344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7363B6521C4793A700F03344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7363B6541C4793A700F03344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7363B6591C4793A700F03344 /* Shake it, BabyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shake it, BabyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7363B65D1C4793A700F03344 /* Shake_it__BabyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake_it__BabyTests.swift; sourceTree = "<group>"; };
+		7363B65F1C4793A700F03344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7363B6641C4793A700F03344 /* Shake it, BabyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shake it, BabyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7363B6681C4793A700F03344 /* Shake_it__BabyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake_it__BabyUITests.swift; sourceTree = "<group>"; };
+		7363B66A1C4793A700F03344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7363B6771C47A64E00F03344 /* blood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blood.mp3; sourceTree = "<group>"; };
+		7363B6781C47A64E00F03344 /* dumdum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dumdum.mp3; sourceTree = "<group>"; };
+		7363B6791C47A64E00F03344 /* knife.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knife.mp3; sourceTree = "<group>"; };
+		7363B67B1C47A64E00F03344 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		7363B67C1C47A64E00F03344 /* sheath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheath.mp3; sourceTree = "<group>"; };
+		7363B67D1C47A64E00F03344 /* shot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shot.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7363B6421C4793A700F03344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7363B6561C4793A700F03344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7363B6611C4793A700F03344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7363B63C1C4793A700F03344 = {
+			isa = PBXGroup;
+			children = (
+				7363B6471C4793A700F03344 /* Shake it, Baby */,
+				7363B65C1C4793A700F03344 /* Shake it, BabyTests */,
+				7363B6671C4793A700F03344 /* Shake it, BabyUITests */,
+				7363B6461C4793A700F03344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7363B6461C4793A700F03344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7363B6451C4793A700F03344 /* Shake it, Baby.app */,
+				7363B6591C4793A700F03344 /* Shake it, BabyTests.xctest */,
+				7363B6641C4793A700F03344 /* Shake it, BabyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7363B6471C4793A700F03344 /* Shake it, Baby */ = {
+			isa = PBXGroup;
+			children = (
+				7363B6481C4793A700F03344 /* AppDelegate.swift */,
+				7363B64A1C4793A700F03344 /* ViewController.swift */,
+				7363B64C1C4793A700F03344 /* Main.storyboard */,
+				7363B64F1C4793A700F03344 /* Assets.xcassets */,
+				7363B6851C47A66300F03344 /* sounds */,
+				7363B6511C4793A700F03344 /* LaunchScreen.storyboard */,
+				7363B6541C4793A700F03344 /* Info.plist */,
+			);
+			path = "Shake it, Baby";
+			sourceTree = "<group>";
+		};
+		7363B65C1C4793A700F03344 /* Shake it, BabyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7363B65D1C4793A700F03344 /* Shake_it__BabyTests.swift */,
+				7363B65F1C4793A700F03344 /* Info.plist */,
+			);
+			path = "Shake it, BabyTests";
+			sourceTree = "<group>";
+		};
+		7363B6671C4793A700F03344 /* Shake it, BabyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7363B6681C4793A700F03344 /* Shake_it__BabyUITests.swift */,
+				7363B66A1C4793A700F03344 /* Info.plist */,
+			);
+			path = "Shake it, BabyUITests";
+			sourceTree = "<group>";
+		};
+		7363B6851C47A66300F03344 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7363B6771C47A64E00F03344 /* blood.mp3 */,
+				7363B6781C47A64E00F03344 /* dumdum.mp3 */,
+				7363B6791C47A64E00F03344 /* knife.mp3 */,
+				7363B67B1C47A64E00F03344 /* pop.mp3 */,
+				7363B67C1C47A64E00F03344 /* sheath.mp3 */,
+				7363B67D1C47A64E00F03344 /* shot.mp3 */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7363B6441C4793A700F03344 /* Shake it, Baby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7363B66D1C4793A700F03344 /* Build configuration list for PBXNativeTarget "Shake it, Baby" */;
+			buildPhases = (
+				7363B6411C4793A700F03344 /* Sources */,
+				7363B6421C4793A700F03344 /* Frameworks */,
+				7363B6431C4793A700F03344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shake it, Baby";
+			productName = "Shake it, Baby";
+			productReference = 7363B6451C4793A700F03344 /* Shake it, Baby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7363B6581C4793A700F03344 /* Shake it, BabyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7363B6701C4793A700F03344 /* Build configuration list for PBXNativeTarget "Shake it, BabyTests" */;
+			buildPhases = (
+				7363B6551C4793A700F03344 /* Sources */,
+				7363B6561C4793A700F03344 /* Frameworks */,
+				7363B6571C4793A700F03344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7363B65B1C4793A700F03344 /* PBXTargetDependency */,
+			);
+			name = "Shake it, BabyTests";
+			productName = "Shake it, BabyTests";
+			productReference = 7363B6591C4793A700F03344 /* Shake it, BabyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7363B6631C4793A700F03344 /* Shake it, BabyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7363B6731C4793A700F03344 /* Build configuration list for PBXNativeTarget "Shake it, BabyUITests" */;
+			buildPhases = (
+				7363B6601C4793A700F03344 /* Sources */,
+				7363B6611C4793A700F03344 /* Frameworks */,
+				7363B6621C4793A700F03344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7363B6661C4793A700F03344 /* PBXTargetDependency */,
+			);
+			name = "Shake it, BabyUITests";
+			productName = "Shake it, BabyUITests";
+			productReference = 7363B6641C4793A700F03344 /* Shake it, BabyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7363B63D1C4793A700F03344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Wow Labz";
+				TargetAttributes = {
+					7363B6441C4793A700F03344 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 526ZQGMLUA;
+					};
+					7363B6581C4793A700F03344 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 526ZQGMLUA;
+						TestTargetID = 7363B6441C4793A700F03344;
+					};
+					7363B6631C4793A700F03344 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 526ZQGMLUA;
+						TestTargetID = 7363B6441C4793A700F03344;
+					};
+				};
+			};
+			buildConfigurationList = 7363B6401C4793A700F03344 /* Build configuration list for PBXProject "Shake it, Baby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7363B63C1C4793A700F03344;
+			productRefGroup = 7363B6461C4793A700F03344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7363B6441C4793A700F03344 /* Shake it, Baby */,
+				7363B6581C4793A700F03344 /* Shake it, BabyTests */,
+				7363B6631C4793A700F03344 /* Shake it, BabyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7363B6431C4793A700F03344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7363B6531C4793A700F03344 /* LaunchScreen.storyboard in Resources */,
+				7363B67F1C47A64E00F03344 /* dumdum.mp3 in Resources */,
+				7363B6501C4793A700F03344 /* Assets.xcassets in Resources */,
+				7363B6831C47A64E00F03344 /* sheath.mp3 in Resources */,
+				7363B6821C47A64E00F03344 /* pop.mp3 in Resources */,
+				7363B6841C47A64E00F03344 /* shot.mp3 in Resources */,
+				7363B64E1C4793A700F03344 /* Main.storyboard in Resources */,
+				7363B6801C47A64E00F03344 /* knife.mp3 in Resources */,
+				7363B67E1C47A64E00F03344 /* blood.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7363B6571C4793A700F03344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7363B6621C4793A700F03344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7363B6411C4793A700F03344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7363B64B1C4793A700F03344 /* ViewController.swift in Sources */,
+				7363B6491C4793A700F03344 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7363B6551C4793A700F03344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7363B65E1C4793A700F03344 /* Shake_it__BabyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7363B6601C4793A700F03344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7363B6691C4793A700F03344 /* Shake_it__BabyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7363B65B1C4793A700F03344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7363B6441C4793A700F03344 /* Shake it, Baby */;
+			targetProxy = 7363B65A1C4793A700F03344 /* PBXContainerItemProxy */;
+		};
+		7363B6661C4793A700F03344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7363B6441C4793A700F03344 /* Shake it, Baby */;
+			targetProxy = 7363B6651C4793A700F03344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7363B64C1C4793A700F03344 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7363B64D1C4793A700F03344 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7363B6511C4793A700F03344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7363B6521C4793A700F03344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7363B66B1C4793A700F03344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7363B66C1C4793A700F03344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7363B66E1C4793A700F03344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shake it, Baby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowlabz.Shake-it--Baby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7363B66F1C4793A700F03344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shake it, Baby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowlabz.Shake-it--Baby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7363B6711C4793A700F03344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shake it, BabyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowlabz.Shake-it--BabyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake it, Baby.app/Shake it, Baby";
+			};
+			name = Debug;
+		};
+		7363B6721C4793A700F03344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shake it, BabyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowlabz.Shake-it--BabyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake it, Baby.app/Shake it, Baby";
+			};
+			name = Release;
+		};
+		7363B6741C4793A700F03344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shake it, BabyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowlabz.Shake-it--BabyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Shake it, Baby";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7363B6751C4793A700F03344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shake it, BabyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wowlabz.Shake-it--BabyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Shake it, Baby";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7363B6401C4793A700F03344 /* Build configuration list for PBXProject "Shake it, Baby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7363B66B1C4793A700F03344 /* Debug */,
+				7363B66C1C4793A700F03344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7363B66D1C4793A700F03344 /* Build configuration list for PBXNativeTarget "Shake it, Baby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7363B66E1C4793A700F03344 /* Debug */,
+				7363B66F1C4793A700F03344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7363B6701C4793A700F03344 /* Build configuration list for PBXNativeTarget "Shake it, BabyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7363B6711C4793A700F03344 /* Debug */,
+				7363B6721C4793A700F03344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7363B6731C4793A700F03344 /* Build configuration list for PBXNativeTarget "Shake it, BabyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7363B6741C4793A700F03344 /* Debug */,
+				7363B6751C4793A700F03344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7363B63D1C4793A700F03344 /* Project object */;
+}
